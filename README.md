@@ -1,4 +1,4 @@
-# Skiplist
+# TimeSpan
 
 Goals: Understanding operator overloading
 Design and implement `TimeSpan` class which represents a duration in hours, minutes and seconds.
@@ -25,11 +25,11 @@ Implement the following operators to work with `TimeSpan`:
 
 Integer multiplication allows us to multiply a TimeSpan with an integer and is not commutative. 
 The other operators work on two given TimeSpan values and are commutative
-`TimeSpan ts3(1.5, 30.5, -90);` 
-`TimeSpan ts4;`
-`ts4 = ts3 * 5;`
-`// below line won't compile`
-`// ts4 = 5 * ts3;`
+- `TimeSpan ts3(1.5, 30.5, -90);` 
+- `TimeSpan ts4;`
+- `ts4 = ts3 * 5;`
+- `// below line won't compile`
+- `// ts4 = 5 * ts3;`
 
 ## Compile and Run
 
