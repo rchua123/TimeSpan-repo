@@ -37,3 +37,4 @@ The other operators work on two given TimeSpan values and are commutative
 g++ -std=c++11 -g -Wall -Wextra assignment2.cpp timespan.cpp -o assignment2
 ./assignment2
 ```
+
